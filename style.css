@@ -71,6 +71,69 @@ nav {
   border: 0;
   border-radius: 5px;
 }
+.heroImgContainer {
+  width: 50%;
+  padding-top: 82px;
+}
 .heroImgContainer img {
   width: 100%;
+}
+.imgNafSection {
+  padding: 20px 70px;
+  background: #ebd96b;
+  display: flex;
+  justify-content: center;
+}
+.imgNavDiv {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imgNavDiv img {
+  width: 10%;
+}
+.sectionContainer {
+  padding: 0 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ecd74b;
+}
+.imgDiv {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: left;
+}
+.imgDiv img {
+  width: 65%;
+}
+text {
+  width: 50%;
+  display: flex;
+  padding: 50px 8px;
+}
+.text h1 {
+  font-size: 55px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+.text p {
+  font-size: 15px;
+}
+.text .date {
+  font-weight: bold;
+  color: #000;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 10px;
 }
