@@ -107,7 +107,7 @@ nav {
   justify-content: left;
 }
 .imgDiv img {
-  width: 65%;
+  width: 75%;
 }
 text {
   width: 50%;
@@ -136,4 +136,94 @@ text {
   text-decoration: none;
   border-radius: 4px;
   margin-top: 10px;
+}
+.subSection {
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e5c643;
+}
+.subscription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subsciption h1 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.subsciption p {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.emailForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emailForm input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  font-size: 20px;
+  width: 250px;
+}
+.emailForm button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.emailForm button:hover {
+  background-color: #333;
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+}
+.footerContainer {
+  display: flex;
+}
+.footerColumn {
+  flex: 1;
+  margin-bottom: 10px;
+}
+.footerColumn h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.footerColumn p {
+  font-size: 16px;
+}
+.socialIcons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.socialIcons img {
+  width: 30px;
+  height: 30px;
+  filter: brightness(0) invert(1);
+}
+.footerColumn ul {
+  list-style: none;
+}
+.footerColumn ul li {
+  margin-top: 8px;
+}
+.footerColumn ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.footerColumn ul li a:hover {
+  text-decoration: underline;
 }
