@@ -328,15 +328,18 @@ nav {
 }
 .lastSectionContainer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 50px 20px;
   background: #e5c643;
+  gap: 10px;
 }
 .sectionText h1 {
   font-size: 25px;
   font-weight: 900;
   color: white;
+  text-align: center;
 }
 .sectionText span {
   font-size: 16px;
@@ -344,21 +347,28 @@ nav {
 }
 .emailContainer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 9px;
+  /* gap: 9px; */
+  background: #fff;
+  border-radius: 10px;
+  width: 35%;
+  padding: 2px;
+  padding: 10px 14px;
 }
 .email-input {
   padding: 9px;
   border: none;
   border-radius: 5px;
   flex: 0.6;
+  background: none;
+  padding: 10px 14px;
 }
 .email-input::placeholder {
   color: #aaa;
 }
 .emailContainer button {
-  padding: 7px 14px;
+  padding: 10px 14px;
   border: none;
   background: black;
   color: white;
@@ -397,6 +407,9 @@ nav {
 }
 .links {
   width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 .links h4 {
   font-size: 14px;
@@ -404,6 +417,11 @@ nav {
 }
 .links ul {
   list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  /* width: 100%; */
 }
 .links ul li a {
   text-decoration: none;
