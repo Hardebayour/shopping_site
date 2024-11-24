@@ -83,6 +83,12 @@ nav {
   width: 54%;
   top: 39%;
 }
+.textContainer .image {
+  position: absolute;
+  width: 54%;
+  top: 12%;
+  right: 42%;
+}
 .textContainer h1 {
   font-size: 74px;
   margin: 0;
@@ -126,7 +132,7 @@ nav {
 .cardContainer {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .new-arrival {
   position: relative;
@@ -261,9 +267,9 @@ nav {
 }
 .favourite img {
   position: absolute;
-  width: 8%;
+  width: 9%;
   top: 48%;
-  left: 10%;
+  left: 12%;
   z-index: -1;
 }
 .favourite h1 {

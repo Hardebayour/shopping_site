@@ -1,0 +1,211 @@
+@media (max-width: 480px) {
+  .padding {
+    padding: 20px 0px;
+  }
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0px;
+  }
+  .imgContainer {
+    width: 50%;
+    justify-content: center;
+  }
+  .navItems {
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+  }
+  .navItems ul {
+    padding: 0;
+  }
+  .navItems ul li a {
+    font-size: 8px;
+  }
+  .navItems button {
+    padding: 5px;
+    font-size: 7px;
+  }
+  .heroSection {
+    padding: 0px 10px;
+  }
+  .textContainer {
+    width: 100%;
+    padding: 20px 10px;
+  }
+  .textContainer h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .textContainer img {
+    top: 28%;
+    left: 23%;
+  }
+  .textContainer .image {
+    top: 4%;
+  }
+  .textContainer p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .textContainer button {
+    padding: 8px;
+    font-size: 8px;
+  }
+  .heroImgContainer {
+    display: none;
+  }
+  .imgSectionNav {
+    padding: 8px 18px;
+  }
+  .imgSectionContainer {
+    width: 100%;
+  }
+  .cardContainer {
+    padding: 0px 10px;
+  }
+  .new-arrival {
+    display: flex;
+    justify-content: center;
+  }
+  .new-arrival h1 {
+    font-size: 15px;
+  }
+  .new-arrival img {
+    width: 14%;
+    left: 58%;
+  }
+  .cards {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .contentImgContainer {
+    width: 100%;
+    display: flex;
+  }
+  .contentTextContainer {
+    width: 100%;
+  }
+  .contentText {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+  }
+  .contentText h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .sale h1 {
+    font-size: 25px;
+  }
+  .contentText h3 {
+    font-size: 15px;
+  }
+  .contentText p {
+    font-size: 13px;
+    font-weight: 300;
+  }
+  .sale img {
+    width: 100%;
+    top: 12%;
+  }
+  .contentText button {
+    width: 25%;
+    font-size: 10px;
+  }
+  .favourite {
+    width: 100%;
+  }
+  .favourite h1 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .favourite img {
+    left: 55%;
+    width: 18%;
+  }
+  .headCards {
+    flex-direction: column;
+    padding: 0px 1px;
+  }
+  .headCard {
+    width: 100%;
+  }
+  .headText h1 {
+    font-size: 15px;
+  }
+  .headText span {
+    font-size: 13px;
+  }
+  .pageContainer {
+    flex-direction: column;
+  }
+  .pageText {
+    width: 100%;
+  }
+  .pageText h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .pageText p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .pageImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .pageMobileImg {
+    display: none;
+  }
+  .lastSectionContainer {
+    flex-direction: column;
+  }
+  .sectionText h1 {
+    font-size: 25px;
+  }
+  .sectionText span {
+    font-size: 13px;
+  }
+  .emailContainer {
+    width: 100%;
+    border-radius: 0;
+    padding: 10px 20px;
+  }
+  .blackContainer {
+    flex-direction: column;
+  }
+  .blackText h1 {
+    font-size: 14px;
+  }
+  .blackText p {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 200;
+  }
+  .socialIcons img {
+    width: 100%;
+  }
+  .links {
+    width: 100%;
+    flex-direction: column;
+  }
+  .links h4 {
+    font-size: 13px;
+    font-weight: 300;
+  }
+  .links ul li a {
+    font-size: 10px;
+  }
+}
